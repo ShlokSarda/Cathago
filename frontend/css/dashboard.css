@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  background: white;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#scanHistory table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#scanHistory th,
+#scanHistory td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+#scanHistory th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+#scanHistory tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#scanHistory tr:hover {
+  background-color: #f1f1f1;
+}
+
+#scanHistory button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#scanHistory button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <h1>📊 Admin Analytics Dashboard</h1>
+
+    <!-- Analytics Section -->
+    <section id="analytics">
+      <h2>📈 Smart Analytics</h2>
+      <div class="analytics-grid">
+        <div class="card">
+          <h3>Total Scans</h3>
+          <p id="totalScans">0</p>
+        </div>
+        <div class="card">
+          <h3>Most Scanned Topics</h3>
+          <ul id="commonTopics"></ul>
+        </div>
+        <div class="card">
+          <h3>Top Users by Scans</h3>
+          <ul id="topUsers"></ul>
+        </div>
+        <div class="card">
+          <h3>Credit Usage Stats</h3>
+          <ul id="creditUsage"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credit Requests Section -->
+    <section id="creditRequestsSection">
+      <h2>💳 User Credit Requests</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Request ID</th>
+            <th>Username</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="creditRequests"></tbody>
+      </table>
+    </section>
+
+    <script src="js/admin_dashboard.js"></script>
+  </body>
+</html>

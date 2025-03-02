@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - Document Scanner</title>
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <script defer src="js/dashboard.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome, <span id="username"></span>!</h2>
+      <p>Available Credits: <span id="credits">Loading...</span></p>
+
+      <h3>Upload Document for Scanning</h3>
+      <input type="file" id="fileInput" />
+      <button onclick="uploadDocument()">Scan Document</button>
+
+      <h3>Scan History</h3>
+      <ul id="scanHistory"></ul>
+
+      <h3>Matching Documents</h3>
+      <ul id="matches"></ul>
+
+      <button onclick="requestCredits()">Request Credits</button>
+
+      <button onclick="logout()">Logout</button>
+    </div>
+  </body>
+</html>
